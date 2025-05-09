@@ -72,5 +72,5 @@ schedule.every().day.at("12:00").do(check_phat_nguoi)  # Chạy lúc 12 giờ tr
 # Vòng lặp chính của chương trình
 print("Đang chạy script kiểm tra phạt nguội...")
 while True:
-    schedule.run_pending()  # Kiểm tra và thực thi các tác vụ đã lập lịch
-    time.sleep(60)  # Chờ 60 giây trước khi kiểm tra lại
+    schedule.run_pending()
+    time.sleep(60)
